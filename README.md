@@ -44,6 +44,9 @@ Uygulama Model Adımları(sentimentAnalysisWithRoberta.py):
 - Bir önceki datasetteki karşılaştırma geliştirilmiştir ve Bert Model'de dönen negatif-nötr-pozitif değerleri farklı şekilde karşılaştırılmıştır.
 - - Eğer dönen değerlerden bir tanesi 0.8 yani %80 ve üzeriyse kendi ismi etiketlenmiştir. Örneğin [0.8835449  0.09714787 0.01930723] durumunda veriye 'Negative' etiketi verilmiştir. Bunun sebebi %80'den fazla olasılıkla o kutpa yakın olmasıdır.
 - - Eğer dönen değerler 0.2'den küçükse yani %20 ve altında olasılıkla o değer değilse 'non' etiketi kullanılmıştır. Örneğin [0.47839725 0.4838082  0.03779453] durumunda veriye 'Non Positive' etiketi atanmıştır.
+- - Bu optimizasyonlar ile modelin başarısı artmıştır.
 - Daha sonra bu etiketler ile ürüne verilen yıldız sayıları karşılaştırılmıştır.
+
 ![Bert Result](https://user-images.githubusercontent.com/87414202/212747589-50dc06c7-14f5-40ff-9b50-bd0c261071e4.png)
+
 
