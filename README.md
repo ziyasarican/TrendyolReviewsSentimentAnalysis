@@ -16,14 +16,14 @@ Model Adımları:
 - Vader Model -1(negatif),1(pozitif) arasında değer döndürmektedir.
 - - Model sonucunda dönen değerler 0'dan büyükse pozitif, 0'dan küçükse negatif, 0'a eşitse nötr etiketi atanmıştır.
 - - Atanan etiketler ile ürüne verilen yıldız sayıları karşılaştırılmış ve 'Vader Model Status' sütununa yazılmıştır.
-- İlk Translator kütüphanesi ile çevrilmiş yorumların sonuçları: 
+- - İlk Translator kütüphanesi ile çevrilmiş yorumların sonuçları: 
 
 ![Vader Result](https://user-images.githubusercontent.com/87414202/212744256-ca1ff373-e7dc-4183-9506-13041a030853.png)
-- İkinci Translator kütüphanesi ile çevrilmiş yorumların sonuçları:
+- - İkinci Translator kütüphanesi ile çevrilmiş yorumların sonuçları:
 
 ![Vader Result 2](https://user-images.githubusercontent.com/87414202/212744347-74607607-1202-4071-a7c7-c0885f7a1fda.png)
 - 
-- - 
+
 - Bert Model ise 3 değer döndürüp bunlar negatif-nötr-pozitif kutpu ifade etmektedir.
 - Basit bir ayrıştırma da olsa ürünlere verilen yıldızlar ile model sonuçları
 ![Roberta Result](https://user-images.githubusercontent.com/87414202/212740834-95676d7a-0d2f-4e18-a735-a8d87b4c9e1a.png)
