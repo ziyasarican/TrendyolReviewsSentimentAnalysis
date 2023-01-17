@@ -141,7 +141,7 @@ def robertaModel():
 robertaModel()
 
 
-def deneme():
+def robertaModelResult():
     import pandas as pd
     import numpy as np 
     df = pd.read_csv("/Users/ziyasarican/Desktop/comments2.csv")
@@ -176,7 +176,7 @@ def deneme():
     df["Roberta Model Status"] = statusList
     df.to_csv('/Users/ziyasarican/Desktop/comments2.csv', index=False, encoding='utf-8')
 
-deneme()  
+robertaModelResult()  
 
 def compareRobertaAndStars():
     import pandas as pd
